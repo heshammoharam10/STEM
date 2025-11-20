@@ -1,0 +1,147 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5faff;
+    color: #333;
+}
+
+/* Main titles */
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+/* Paragraphs */
+p {
+    max-width: 800px;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Images & videos */
+img, image, video {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Unordered list */
+ul {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    padding: 10px;
+    background: #0056b3;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Ordered list */
+ol {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 8px 0;
+    padding: 10px;
+    background: white;
+    border-left: 4px solid #0056b3;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#nave {
+  text-align: center;
+  background-color: #2e2e2e;
+}
+
+
+#nave a:hover {
+    color: #ffd700; /* أصفر جذاب */
+    transform: scale(1.05);
+}
+
+#nave a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#page2nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* Main header layout */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2e2e2e;
+}
+
+/* Make both logos the same size */
+.small-logo {
+    width: 80px;   /* Change this number to control size */
+    height: auto;
+}
+
+/* Make the center text smaller */
+.header-text h1 {
+    font-size: 24px;  /* Change this to make text smaller or bigger */
+}
+.header-text p {
+    font-size: 14px;  /* Smaller paragraph text */
+    margin-top: 5px;
+}
+
+
+
+
+#nave {
+  text-align: center;
+  background-color: #2e2e2e;
+}
+
+
+#nave a:hover {
+    color: #ffd700; /* أصفر جذاب */
+    transform: scale(1.05);
+}
+
+#nave a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
